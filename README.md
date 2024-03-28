@@ -95,6 +95,11 @@ sudo ufw allow 'Nginx Full'
 nohup streamlit run main.py &
 ```
 
+## Live on AWS - Streamlit
+
+```
+http://65.0.85.83/
+```
 
 ## References
 
