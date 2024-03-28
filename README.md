@@ -89,6 +89,12 @@ sudo systemctl restart nginx
 sudo ufw allow 'Nginx Full'
 ```
 
+## Running
+
+```
+nohup streamlit run main.py &
+```
+
 
 ## References
 
