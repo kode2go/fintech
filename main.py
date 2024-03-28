@@ -1,6 +1,5 @@
 import streamlit as st
 from base import base
-from blog import blog
 from about import about
 
 import streamlit as st
