@@ -62,7 +62,7 @@ with st.sidebar:
     lottie = load_lottiefile("similo3.json")
     st_lottie(lottie,key='loc')    
 
-if st.session_state['authenticated']:    
+if True:    
 
     if selected == "Intro":    
         base()
