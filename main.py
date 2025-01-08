@@ -20,7 +20,7 @@ import pickle
 from pathlib import Path 
 import streamlit_authenticator as stauth 
 
-from st_login_form import login_form
+# from st_login_form import login_form
 
 #Layout
 st.set_page_config(
@@ -50,7 +50,7 @@ def load_lottiefile(filepath: str):
 #Options Menu
 with st.sidebar:
     # st.sidebar.title(f"Welcome {name}")
-    client = login_form()
+    # client = login_form()
     selected = option_menu('Zenkos', ["Intro",
     'Active Listening Diagnostic',
     '12 Month Forecast',
